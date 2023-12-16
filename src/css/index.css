@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #edeef2;
+}
+
+.containerCustom{
+    min-height: calc(100vh - 560px);
+}
