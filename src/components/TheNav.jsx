@@ -18,7 +18,7 @@ export default function TheNav(){
                 
                 <a className="" href="/login">Login</a>
                 <a className="" href="/register">Register</a> </>)}
-                {isLoggedIn && (<><a className="" href="/dashboard">Dashboard</a> <a className="" href="#" onClick={handleLogout}>Logout</a>
+                {isLoggedIn && (<><a className="" href="/dashboard">Dashboard</a> <a className="" href="/" onClick={handleLogout}>Logout</a>
 </>)}
             </div>
         </div>

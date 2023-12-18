@@ -31,14 +31,8 @@ export function AuthProvider({ children }) {
 // --------------------------------------------------------------
     function handleLogout(){
         setUser(null);
-        setIsLoggedIn(null);
-        storeToken(null);
+        setIsLoggedIn(false);
         localStorage.removeItem("token");
-    }
-
-    function storeToken(token){
-        setToken(resp.token)
-        localStorage.setItem("token", token)
     }
 
     useEffect(() => {
